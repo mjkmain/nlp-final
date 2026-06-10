@@ -1,0 +1,1 @@
+uv run accelerate launch --num_processes 8 src/train/sft.py --dataset src/data/oogiri_sft --output checkpoints/oogiri_sf

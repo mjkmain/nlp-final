@@ -1,0 +1,59 @@
+# === Data & generated artifacts (large) ===
+src/data/
+checkpoints/
+outputs/
+runs/
+
+# === Secrets / environment ===
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# === Virtual environment (recreate from uv.lock) ===
+.venv/
+venv/
+env/
+.python-version
+
+# === Model weights / large binaries ===
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.onnx
+
+# === Logs ===
+*.log
+logs/
+wandb/
+trackio/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# === Jupyter ===
+*.ipynb_checkpoints
+
+# === OS / editor ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
