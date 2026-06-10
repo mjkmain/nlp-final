@@ -40,7 +40,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--image-col", default="image")
     p.add_argument("--limit", type=int, default=None, help="debug: train on first N rows.")
     p.add_argument("--epochs", type=float, default=3)
-    p.add_argument("--lr", type=float, default=1e-6)
+    p.add_argument("--lr", type=float, default=1e-5)
     p.add_argument("--per-device-batch", type=int, default=4)
     p.add_argument("--grad-accum", type=int, default=4)
     p.add_argument("--max-len", type=int, default=1024)
